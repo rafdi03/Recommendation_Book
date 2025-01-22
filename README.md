@@ -24,7 +24,13 @@ The **Book Recommendation System** is a project aimed at providing personalized 
 - **Required Libraries**: Install necessary Python packages using pip:
   ```bash
   pip install pandas numpy scikit-learn
-
+- **Clone the Repository**:
+  ```bash
+  git clone https://github.com/rafdi03/Recommendation_Book.git
+- **Navigate to the Project Directory**:
+   ```bash
+   cd Recommendation_Book
+   
 ## Contributing
 Contributions to enhance the system's features or performance are welcome. Please fork the repository and submit a pull request with your proposed changes.
 
