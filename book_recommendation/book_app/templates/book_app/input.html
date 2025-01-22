@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Recommendation System</title>
+</head>
+<body>
+    <h1>Book Recommendation System</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <div>
+            <label for="username">Nama:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+            <label>Pilih opsi:</label>
+            <select name="choice" required>
+                <option value="2">Rekomendasi berdasarkan judul buku</option>
+            </select>
+        </div>
+        <div>
+            <label for="input_data">Masukkan judul buku:</label>
+            <input type="text" id="input_data" name="input_data" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html> 
